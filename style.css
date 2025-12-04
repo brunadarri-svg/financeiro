@@ -1,0 +1,35 @@
+.form div{
+    margin: 10px;
+}
+
+.mensagem{ 
+    border: 3px solid rgb(0, 0, 0) ;
+    background-color: rgb(223, 46, 46);
+}
+
+.mensagem-sucesso{
+    border-color: aqua;
+}
+
+.mensagem-erro{
+    border-color: rgb(0, 0, 0);
+    background-color: rgb(247, 4, 4);
+    color: rgb(255, 255, 255);
+}
+
+body{
+    text-align: center;
+    background-color: rgba(25, 246, 58, 0.64);
+    font-family:Georgia, 'Times New Roman', Times, serif
+
+}
+
+h1{
+    color: rgb(0, 0, 0);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+button{
+    color: rgb(41, 21, 41);
+    border-color: rgb(161, 127, 193);
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}

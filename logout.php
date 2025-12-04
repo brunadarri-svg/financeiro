@@ -8,4 +8,3 @@ session_destroy();
 //redirecina para login
 header('location: login.php');
 exit;
-?>
