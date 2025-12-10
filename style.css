@@ -4,22 +4,22 @@
 
 .mensagem{ 
     border: 3px solid rgb(0, 0, 0) ;
-    background-color: rgb(223, 46, 46);
+    background-color: rgb(133, 48, 114);
 }
 
 .mensagem-sucesso{
-    border-color: aqua;
+    border-color: rgb(246, 52, 181);
 }
 
 .mensagem-erro{
     border-color: rgb(0, 0, 0);
-    background-color: rgb(247, 4, 4);
+    background-color: rgb(219, 5, 105);
     color: rgb(255, 255, 255);
 }
 
 body{
     text-align: center;
-    background-color: rgba(25, 246, 58, 0.64);
+    background-color: rgba(255, 0, 183, 0.64);
     font-family:Georgia, 'Times New Roman', Times, serif
 
 }
@@ -32,4 +32,12 @@ button{
     color: rgb(41, 21, 41);
     border-color: rgb(161, 127, 193);
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+body{
+    background-image: url(images/wepink.jpg);
+    background-position: top;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
